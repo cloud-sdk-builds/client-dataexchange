@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-dataexchange`](https://www.npmjs.com/package/@aws-sdk/client-dataexchange/v/3.1168.0).
+[`@aws-sdk/client-dataexchange`](https://www.npmjs.com/package/@aws-sdk/client-dataexchange/v/3.1169.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-dataexchange - [https://cloud-sdk-builds.github.io/?sdk=client-dataexchange](https://cloud-sdk-builds.github.io/?sdk=client-dataexchange)
-- @aws-sdk/client-dataexchange v3.1168.0 - [https://cloud-sdk-builds.github.io/?sdk=client-dataexchange&version=3.1168.0](https://cloud-sdk-builds.github.io/?sdk=client-dataexchange&version=3.1168.0)
+- @aws-sdk/client-dataexchange v3.1169.0 - [https://cloud-sdk-builds.github.io/?sdk=client-dataexchange&version=3.1169.0](https://cloud-sdk-builds.github.io/?sdk=client-dataexchange&version=3.1169.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1168.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1169.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-h/ZgxFUSTZdEK4Z1vr73OrYgy3vQf1iV3MP73TrGEw5tqFY4kdpfzCrE8fZ7vFbz
+sha384-bb91//r4ONxrTQK/T4T3+iLG/5O2tvcTi/pWAvfKvZZ/yr/Yq/aXWAU/WcF2TjKJ
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-dataexchange": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1168.0/index.min.mjs"
+            "@aws-sdk/client-dataexchange": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1169.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1168.0/index.min.mjs": "sha384-h/ZgxFUSTZdEK4Z1vr73OrYgy3vQf1iV3MP73TrGEw5tqFY4kdpfzCrE8fZ7vFbz"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1169.0/index.min.mjs": "sha384-bb91//r4ONxrTQK/T4T3+iLG/5O2tvcTi/pWAvfKvZZ/yr/Yq/aXWAU/WcF2TjKJ"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-dataexchange": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1168.0/index.min.mjs"
+                        "@aws-sdk/client-dataexchange": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1169.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1168.0/index.min.mjs": "sha384-h/ZgxFUSTZdEK4Z1vr73OrYgy3vQf1iV3MP73TrGEw5tqFY4kdpfzCrE8fZ7vFbz"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dataexchange@3.1169.0/index.min.mjs": "sha384-bb91//r4ONxrTQK/T4T3+iLG/5O2tvcTi/pWAvfKvZZ/yr/Yq/aXWAU/WcF2TjKJ"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1168.0`)
+* Always pin to a specific version (`@3.1169.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-dataexchange/blob/refs/tags/3.1168.0/LICENSE
+https://github.com/cloud-sdk-builds/client-dataexchange/blob/refs/tags/3.1169.0/LICENSE
 ```
 
 ---
